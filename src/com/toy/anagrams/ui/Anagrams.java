@@ -130,7 +130,7 @@ public class Anagrams extends JFrame {
         mainPanel.setMinimumSize(new java.awt.Dimension(297, 200));
         mainPanel.setLayout(new java.awt.GridBagLayout());
 
-        scrambledLabel.setText("Scrambled Word:");
+        scrambledLabel.setText("スクランブルワード:");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 0;
@@ -149,8 +149,8 @@ public class Anagrams extends JFrame {
         mainPanel.add(scrambledWord, gridBagConstraints);
 
         guessLabel.setDisplayedMnemonic('Y');
-        guessLabel.setLabelFor(guessedWord);
-        guessLabel.setText("Your Guess:");
+        guessLabel.getLabelFor();
+        guessLabel.setText("あなたの推測:");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.fill = java.awt.GridBagConstraints.HORIZONTAL;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.WEST;
